@@ -7,9 +7,9 @@ Acest proiect a fost construit pentru a aprofunda conceptele de programare în C
 
 Funcționalități Implementate
 
-* Interfață Grafică în Terminal:** Tabla este desenată folosind culori de fundal (ANSI Escape Codes) și piese reale de șah (caractere Unicode UTF-8).
-* Validare Geometrică Strictă:** Fiecare piesă respectă regulile clasice de mișcare din șah.
-* Protecția Regelui (Save & Undo):** Sistemul simulează mutările în fundal înainte de a le aproba. Jucătorii nu pot face mutări care le-ar lăsa propriul rege în șah.
+* Interfață Grafică în Terminal: Tabla este desenată folosind culori de fundal (ANSI Escape Codes) și piese reale de șah (caractere Unicode UTF-8).
+* Validare Geometrică Strictă: Fiecare piesă respectă regulile clasice de mișcare din șah.
+* Protecția Regelui (Save & Undo): Sistemul simulează mutările în fundal înainte de a le aproba. Jucătorii nu pot face mutări care le-ar lăsa propriul rege în șah.
 * Detectare Automată (Forță Brută) Șah: Avertizează jucătorul când regele este atacat.
 * Șah Mat: Identifică momentul în care jucătorul curent nu mai are nicio mutare legală salvatoare.
 * Remiză (Pat / Stalemate): Oprește jocul dacă regele nu este în șah, dar jucătorul nu are mutări legale.
@@ -19,11 +19,11 @@ Funcționalități Implementate
  Arhitectura Proiectului
 
 Codul este modularizat pentru a fi curat și ușor de citit:
-* `main.c` - Bucla principală a jocului și gestionarea turelor.
-* `reguli.c` - "Creierul" jocului (validări, simulări, matematică).
-* `grafic.c` - Funcțiile responsabile de desenarea tablei și culori.
-* `sah.h` - Fișierul header care leagă toate componentele.
-* `Makefile` - Scriptul pentru automatizarea compilării.
+* main.c - Bucla principală a jocului și gestionarea turelor.
+* reguli.c - "Creierul" jocului (validări, simulări, matematică).
+* grafic.c - Funcțiile responsabile de desenarea tablei și culori.
+* sah.h - Fișierul header care leagă toate componentele.
+* Makefile - Scriptul pentru automatizarea compilării.
 
  Cum se Instalează și Rulează
 
